@@ -1,0 +1,43 @@
+.container__main-card {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.main-card__image img {
+ width: 100%;
+ min-width: 540px;
+}
+
+.main-card__eyebrow {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: #505051;
+}
+
+.main-card__title {
+  font-weight: normal;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.main-card__excerpt {
+  text-align: left;
+}
+
+.main-card__tags {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: auto;
+  margin: 20px 10px 20px 0;
+}
+
+.main-card__tags span {
+  padding: 3px 8px;
+  border-radius: 20px;
+  border: 1px solid #b2b5b8;
+  width: auto;
+}

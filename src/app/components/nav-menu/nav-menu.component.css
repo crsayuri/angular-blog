@@ -1,0 +1,39 @@
+.container__nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  background-image: url('/assets/clogo.png');
+  height: 80px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 650px;
+}
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navigation div button {
+  background-color: #000;
+  color:  #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+}

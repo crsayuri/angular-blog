@@ -1,0 +1,47 @@
+.container__main-title {
+  text-align: center;
+}
+
+.container__main-title h1 {
+  margin: 50px auto 15px ;
+}
+
+.container__main-title p {
+  margin-bottom: 15px;;
+}
+
+.subscribe {
+  border: 1px solid #b1b5b8;
+  width: fit-content;
+  padding: 5px;
+  margin: 30px auto;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.subscribe form input {
+  border: none;
+  margin-left: 10px;
+  height: 30px;
+  width: 200px;
+  text-align: left;
+}
+
+.subscribe form button {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.subscribe input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+
+
+
