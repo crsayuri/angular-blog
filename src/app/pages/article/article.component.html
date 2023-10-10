@@ -1,0 +1,14 @@
+<div class="container">
+
+  <div class="content__hero">
+    <h1>{{ articleTitle }}</h1>
+    <p>{{ articleSubtitle }}</p>
+  </div>
+  <div class="content__img">
+    <img src="{{ articleImg }}" alt="">
+  </div>
+  <a [routerLink]="['']"> << Back</a>
+  <div class="content__text">
+{{ articleContent }}
+  </div>
+</div>

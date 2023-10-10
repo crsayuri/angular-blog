@@ -8,14 +8,21 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MainCardComponent implements OnInit {
   @Input()
   imageCover: string = ""
+
   @Input()
   cardEyebrow: string = ""
+
   @Input()
   cardTitle: string = ""
+
   @Input()
   cardExcerpt: string = ""
+
   @Input()
   cardTags: string = ""
+
+  @Input()
+  Id:string = "0"
 
   constructor() { }
 

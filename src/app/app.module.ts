@@ -9,6 +9,7 @@ import { SidebarCardComponent } from './components/sidebar-card/sidebar-card.com
 import { NormalCardComponent } from './components/normal-card/normal-card.component';
 import { HeroTitleComponent } from './components/hero-title/hero-title.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ArticleComponent } from './pages/article/article.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     SidebarCardComponent,
     NormalCardComponent,
     HeroTitleComponent,
-    HomeComponent
+    HomeComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,

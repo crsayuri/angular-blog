@@ -10,11 +10,11 @@
       </div>
 
       <div class="sidebar__title">
-        <h3><a href="#"> {{ sidebarTitle }} </a></h3>
+        <h3><a [routerLink]="['article', Id]"> {{ sidebarTitle }} </a></h3>
       </div>
 
       <div class="sidebar__excerpt">
-        <p><a href> {{ sidebarExcerpt }}</a></p>
+        <p><a [routerLink]="['article', Id]"> {{ sidebarExcerpt }}</a></p>
       </div>
 
       <div class="sidebar__tags">
