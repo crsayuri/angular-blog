@@ -4,13 +4,13 @@
   margin-bottom: 16px;
   height: 167px;
   width: 100%;
-  align-items: center;
 }
 
 .sidebar-card__image img {
   width: 200px;
   height: 165px;
   min-width: 200px;
+  object-fit: cover;
 }
 
 .sidebar-content {
@@ -32,7 +32,7 @@
   flex-direction: row;
   gap: 15px;
   width: auto;
-  margin: 20px 10px 20px 0;
+  margin: 15px 10px 20px 0;
 }
 
 .sidebar__tags span {

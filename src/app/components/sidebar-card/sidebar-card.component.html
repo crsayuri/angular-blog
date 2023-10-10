@@ -2,25 +2,24 @@
 
   <div class="container__sidebar-card">
     <div class="sidebar-card__image">
-      <img src="/assets/Placeholder_view_vector.svg.png" alt="image placeholder" height="400">
+      <img src="{{ sidebarCover }}" alt="image placeholder" height="400">
     </div>
     <div class="sidebar-content">
       <div class="sidebar__eyebrow">
-        <span>Olivia Rhye • 20 Jan 2024</span>
+        <span> {{ sidebarEyebrow }}</span>
       </div>
 
       <div class="sidebar__title">
-        <h3><a href="#">Conversations with London Makr & Co.</a></h3>
+        <h3><a href="#"> {{ sidebarTitle }} </a></h3>
       </div>
 
       <div class="sidebar__excerpt">
-        <p><a href>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde eum accusantium officia soluta quis sed. </a></p>
+        <p><a href> {{ sidebarExcerpt }}</a></p>
       </div>
 
       <div class="sidebar__tags">
-        <span>Design</span>
-        <span>Research</span>
-        <span>Interviews</span>
+        <span>{{ sidebarTags }}</span>
+        <span>{{ sidebarTags }}</span>
       </div>
     </div>
 
